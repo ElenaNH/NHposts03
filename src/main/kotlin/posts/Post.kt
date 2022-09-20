@@ -15,6 +15,7 @@ data class Post(
     val views: Views = Views(),
     val postType: String = "post",
     val canPin: Boolean = true,
+    val canDelete: Boolean = false,
     val isPinned: Boolean = true
 ) /*{
     override fun toString(): String {
